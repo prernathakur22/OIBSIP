@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - NexaVision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <h1>Welcome to NexaVision</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Revolutionizing Digital Solutions</h2>
+            <p>Empowering businesses to thrive in a rapidly changing world through innovative technology, creative solutions, and forward-thinking strategies.</p>
+            <a href="#services" class="btn-primary">Discover Our Solutions</a>
+        </div>
+    </section>
+    
+    <!-- About Us Section -->
+    <section id="about" class="container about">
+        <div class="about-content">
+            <h2>About NexaVision</h2>
+            <p>At NexaVision, we specialize in transforming businesses by integrating the latest technology trends, harnessing the power of innovation, and providing cutting-edge solutions that accelerate growth, drive efficiency, and foster long-term success.</p>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="container services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <img src="s1.jpg" alt="Digital Transformation">
+                <h3>Digital Transformation</h3>
+                <p>Helping companies navigate and thrive in the rapidly evolving digital landscape by modernizing their tools, streamlining their processes, and embracing innovative technologies to stay ahead of the curve.</p>
+            </div>
+            <div class="service-item">
+                <img src="s2.jpeg" alt="Cloud Solutions">
+                <h3>Cloud Solutions</h3>
+                <p>Empowering your business to reach new heights with scalable cloud infrastructure, expertly managed services, and flexible solutions that drive agility, efficiency, and innovation, helping you stay ahead of the competition in a rapidly changing market.</p>
+            </div>
+            <div class="service-item">
+                <img src="s3.jpg" alt="Data Analytics">
+                <h3>Data Analytics</h3>
+                <p>Unlock the full potential of your data with our advanced analytics solutions, designed to provide actionable insights, drive informed decision-making, and fuel business growth through data-driven strategies and precise forecasting.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="container testimonials">
+        <h2>What Clients Say</h2>
+        <div class="testimonial">
+            <p>"NexaVision transformed our operations with their unique cloud solutions. A real game-changer!"</p>
+            <p><strong>Agysta, COO of BrightFuture Inc.</strong></p>
+        </div>
+        <div class="testimonial">
+            <p>"Their digital transformation service helped us scale quickly and efficiently. Highly recommended!"</p>
+            <p><strong>Thakur Prerna Singh, CEO of MetaSolutions</strong></p>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="container contact">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Fill out the form below or get in touch via email.</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </section>
+    
+    <!-- Newsletter Signup Section -->
+    <section id="newsletter" class="container newsletter">
+        <h2>Stay Connected</h2>
+        <p>Subscribe to our newsletter to stay updated with the latest industry news and insights.</p>
+        <form action="subscribe_newsletter.php" method="POST">
+            <label for="newsletter-email">Email:</label>
+            <input type="email" id="newsletter-email" name="email" required>
+            <button type="submit" class="btn-primary">Subscribe</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2024 NexaVision. All rights reserved.</p>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
